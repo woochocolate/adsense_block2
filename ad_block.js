@@ -32,11 +32,11 @@ function addClickCount() {
 
   if (count > 2) {
     const confirmMessage =
-      '애드센스 연속 클릭 3회 진행하셨기에 무효트래픽 공격으로 간주하여 IP 추적 진행합니다.\n악의적인 광고 클릭 멈추시겠습니까?\n';
+      '애드센스 연속 클릭 3회 진행하셨기에 무효트래픽 공격으로 간주됩니다. IP추적 경고.\n악의적인 광고 클릭을 멈추시겠습니까?\n';
     const userConfirmed = confirm(confirmMessage + '\n' + credit);
 
     if (!userConfirmed) {
-      window.location.replace('https://aros100.com');
+      window.location.replace('https://www.youtube.com/@moneypostit');
     }
 
     // 초기화
