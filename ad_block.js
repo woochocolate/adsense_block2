@@ -33,6 +33,7 @@ function addClickCount() {
   if (count > 2) {
     const confirmMessage =
       '애드센스 연속 클릭 3회 진행하셨기에 무효트래픽 공격으로 간주됩니다. IP추적 경고.\n악의적인 광고 클릭을 멈추시겠습니까?\n';
+    const credit = '머니트잇';
     const userConfirmed = confirm(confirmMessage + '\n' + credit);
 
     if (!userConfirmed) {
