@@ -32,7 +32,7 @@ function addClickCount() {
 
   if (count > 3) {
     const confirmMessage =
-      '애드센스 광고를 연속으로 클릭하면 무효 트래픽이 발생할 수 있어요! IP체크중👀\n무분별한 광고 클릭은 STOP! 머니니트잇에 집중해주세요!\n';
+      '애드센스 광고를 연속으로 클릭하면 안돼요! IP체크중👀\n무분별한 광고 클릭은 STOP! 머니트잇에 집중해주세요!\n';
     const credit = 'MONEYTIT';
     const userConfirmed = confirm(confirmMessage + '\n' + credit);
 
